@@ -185,13 +185,14 @@
         <a href="https://reddit.com/user/pm-toha06ait" target="_blank" title="Reddit" class="social-icon-reddit">Reddit</a>
         <a href="https://threads.net/pm_toha" target="_blank" title="Threads" class="social-icon-threads">Threads</a>
         <a href="https://tiktok.com/@pm_toha08ait" target="_blank" title="TikTok" class="social-icon-tiktok">TikTok</a>
+        <a href="https://tumblr.com/pm-toha" target="_blank" title="Tumblr" class="social-icon-tumblr">Tumblr</a>
         <a href="https://bsky.app/profile/pm-toha06ait.bsky.social" target="_blank" title="Bluesky" class="social-icon-bluesky">Bluesky</a>
         <a href="https://quora.com/profile/P M Abrar Ishraq Toha" target="_blank" title="Quora" class="social-icon-quora">Quora</a>
         <a href="https://www.linkedin.com/in/pm-toha06" target="_blank" title="LinkedIn" class="social-icon-linkedin">LinkedIn</a>
         <a href="https://github.com/toha369ait" target="_blank" title="GitHub" class="social-icon-github">GitHub</a>
         <a href="https://alfafaa-community.com/pmtoha06ait " target="_blank" title="Alfafaa Community" class="social-icon-alfafaa">Alfafaa Community</a>
         <a href="https://pinterest.com/pmtoha06" target="_blank" title="Pinterest" class="social-icon-pinterest">Pinterest</a>
-        <a href="https://twitch.tv/pmtoha_06" target="_blank" title="Twitch" class="social-icon-twitch">Twitch</a>
+        <a href="https://twitch.tv/pmtoha_06" target="_blank" title="Twitch" class="social-icon-twitch">Twitch</a>  
     </div>
 
 </div>
