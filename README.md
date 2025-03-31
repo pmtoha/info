@@ -102,9 +102,6 @@
         .social-icon-bluesky {
             color: #0096D6;
         }
-        .social-icon-quora {
-            color: #B92B27;
-        }
         .social-icon-linkedin {
             color: #0e76a8;
         }
@@ -114,6 +111,33 @@
         .social-icon-pinterest {
             color: #E60023; /* Red for Pinterest */
         }
+
+        .social-icon-tumblr {
+        color: #000000; /* Black for Tumblr */
+        }
+
+       .social-icon-quora {
+        color: #B92B27; /* Red for Quora */
+        }
+
+       .social-icon-twitch {
+        color: #9146FF; /* Purple for Twitch */
+        }
+
+       .social-icon-alfafaa {
+        color: #32CD32; /* Lime green for Alfafaa Community */
+        }
+
+
+
+
+
+
+
+
+
+
+
         .follow-me {
             font-size: 28px;
             font-weight: bold;
@@ -185,9 +209,9 @@
         <a href="https://reddit.com/user/pm-toha06ait" target="_blank" title="Reddit" class="social-icon-reddit">Reddit</a>
         <a href="https://threads.net/pm_toha" target="_blank" title="Threads" class="social-icon-threads">Threads</a>
         <a href="https://tiktok.com/@pm_toha08ait" target="_blank" title="TikTok" class="social-icon-tiktok">TikTok</a>
-        <a href="https://tumblr.com/pm-toha" target="_blank" title="Tumblr" class="social-icon-tumblr">Tumblr</a>
         <a href="https://bsky.app/profile/pm-toha06ait.bsky.social" target="_blank" title="Bluesky" class="social-icon-bluesky">Bluesky</a>
-        <a href="https://quora.com/profile/P M Abrar Ishraq Toha" target="_blank" title="Quora" class="social-icon-quora">Quora</a>
+        <a href="https://tumblr.com/pm-toha" target="_blank" title="Tumblr" class="social-icon-tumblr">Tumblr</a>
+<a href="https://www.quora.com/profile/P-M-Abrar-Ishraq-Toha?ch=10&oid=2880212966&share=f52d34bd&srid=3l5OmF&target_type=user" target="_blank" title="Quora" class="social-icon-quora">Quora</a>                
         <a href="https://www.linkedin.com/in/pm-toha06" target="_blank" title="LinkedIn" class="social-icon-linkedin">LinkedIn</a>
         <a href="https://github.com/toha369ait" target="_blank" title="GitHub" class="social-icon-github">GitHub</a>
         <a href="https://alfafaa-community.com/pmtoha06ait " target="_blank" title="Alfafaa Community" class="social-icon-alfafaa">Alfafaa Community</a>
@@ -196,10 +220,3 @@
     </div>
 
 </div>
-
-<footer>
-    <p>&copy; 2025 P M ABRAR ISHRAQ TOHA. All rights reserved.</p>
-</footer>
-
-</body>
-</html>
