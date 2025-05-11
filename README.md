@@ -196,9 +196,9 @@
     <section id="contact">
         <h2>Contact</h2>
         <p>If you'd like to get in touch, feel free to send me an email or call:</p>
-        <a href="mailto:pm-toha6@protonmail.com" class="button">Email</a>
+        <a href="mailto:OFF" class="button">Email</a>
         <a href="tel:+8801" class="button">Call</a>
-        <a href="https://chithi.me/toha_2" class="button">Anyone Can Text Me</a>
+        <a href="https://chithi.me/toha_2" class="button">Anyone Can Text Me by Anonymously</a>
     </section>
 
     <div class="social-icons">
