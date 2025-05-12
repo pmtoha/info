@@ -206,10 +206,10 @@
         <a href="https://twitter.com/AbrarIshraqToha" target="_blank" title="Twitter" class="social-icon-twitter">Twitter</a>
         <a href="https://www.facebook.com/pmabrarishraqtoha6?mibextid=ZbWKwL" target="_blank" title="Facebook" class="social-icon-facebook">Facebook</a>
         <a href="https://instagram.com/pm_toha" target="_blank" title="Instagram" class="social-icon-instagram">Instagram</a>
-        <a href="https://reddit.com/user/pm-toha06ait" target="_blank" title="Reddit" class="social-icon-reddit">Reddit</a>
+        <a href="https://reddit.com/user/pm-toha" target="_blank" title="Reddit" class="social-icon-reddit">Reddit</a>
         <a href="https://threads.net/pm_toha" target="_blank" title="Threads" class="social-icon-threads">Threads</a>
         <a href="https://tiktok.com/@pm_toha08ait" target="_blank" title="TikTok" class="social-icon-tiktok">TikTok</a>
-        <a href="https://bsky.app/profile/pm-toha06ait.bsky.social" target="_blank" title="Bluesky" class="social-icon-bluesky">Bluesky</a>
+        <a href="https://bsky.app/profile/pmtoha.bsky.social" target="_blank" title="Bluesky" class="social-icon-bluesky">Bluesky</a>
         <a href="https://tumblr.com/pm-toha" target="_blank" title="Tumblr" class="social-icon-tumblr">Tumblr</a>
 <a href="https://www.quora.com/profile/P-M-Abrar-Ishraq-Toha?ch=10&oid=2880212966&share=f52d34bd&srid=3l5OmF&target_type=user" target="_blank" title="Quora" class="social-icon-quora">Quora</a>                
         <a href="https://www.linkedin.com/in/pm-toha06" target="_blank" title="LinkedIn" class="social-icon-linkedin">LinkedIn</a>
