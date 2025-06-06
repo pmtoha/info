@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      overflow-x: hidden;
+    }
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    /* Container for Content */
+    .container {
+      padding: 100px 20px 80px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    /* Sections */
+    section {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      animation: fadeInUp 1s ease-out;
+      transition: background-color 0.5s ease-in-out;
+    }
+    section:hover {
+      background-color: SandyBrown;
+    }
+    /* Flexible header for section title with logo */
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 10px; /* space between logo and text */
+    }
+    .section-header img {
+      width: 40px; /* adjust the size as needed */
+      height: auto;
+    }
+    /* Button Style */
+    .custom-button {
+      background: linear-gradient(45deg, #007bff, #0056b3);
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      display: inline-flex;
+      align-items: center;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+      text-decoration: none;
+      font-weight: normal;
+    }
+    .custom-button:hover {
+      background: linear-gradient(45deg, #0056b3, #003d80);
+      transform: scale(1.05);
+    }
+    .custom-button img {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+    }
+    .custom-button span {
+      font-size: 18px;
+      margin-left: 8px;
+    }
+    /* Social Media Section */
+    .social-icons {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 24px;
+      transition: transform 0.3s, color 0.3s;
+      display: inline-block;
+    }
+    .social-icons a:hover {
+      transform: scale(1.2);
+    }
+    /* Social Media Colors */
+    .social-icon-facebook  { color: #1877F2; }
+    .social-icon-instagram { color: #C13584; }
+    .social-icon-threads   { color: #010101; }
+    .social-icon-reddit    { color: #FF4500; }
+    .social-icon-twitter   { color: #1DA1F2; }
+    .social-icon-tiktok    { color: #010101; }
+    .social-icon-bluesky   { color: #0096D6; }
+    .social-icon-quora     { color: #B92B27; }
+    .social-icon-linkedin  { color: #0e76a8; }
+    .social-icon-github    { color: #000000; }
+    .social-icon-alfafaa   { color: #32CD32; }
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      animation: slideIn 1s ease-out;
+    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .social-icons a { font-size: 22px; }
+    }
+    @media (max-width: 480px) {
+      .social-icons a {
+        font-size: 20px;
+        margin: 5px;
+      }
+      .container { padding: 100px 10px 80px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <section id="header">
+    <center>
+      <h2>السلام عليكم</h2>
+      <p>....</p>
+    </center>
+  </section>
+
+  <div class="container">
+    <!-- About Me Section -->
+    <section id="about">
+      <h2 class="section-header">
+        <img src="y675.png" alt="About Me Logo">
+        <span>About Me</span>
+      </h2>
+      <p>Hello! I'm Pramanik Muhammad Abrar Ishraq Toha from Rajshahi, Bangladesh, a student with a deep passion for technology. I have a younger brother. My father is an English teacher. My mother is a teacher too. I thrive on learning new skills and pushing the boundaries of what’s possible in programming, robotics, etc. My knowledge in electrical wiring and circuit repairs complements my technical expertise, enabling me to work with both software and hardware solutions. 
+</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2 class="section-header">
+        <img src="6760851.png" alt="Contact Logo">
+        <span>Contact</span>
+      </h2>
+      <p>Interested in collaborating or simply want to say hi? Feel free to reach out:</p>
+      <a href="mailto:pmtoha05@protonmail.com" class="custom-button">
+        <img src="uuyy.webp" alt="Email Icon">
+        Email
+      </a>
+      <a href="tel:+8801" class="custom-button">
+        <img src="rrrrrrr.png" alt="Phone Icon">
+        Call
+      </a>
+    </section>
+    <!-- Game Lounge & Other Application Section -->
+    <section id="project">
+      <h2 class="section-header">
+        <img src="77jg.png" alt="Project Logo">
+        <span>Game Lounge & Other Application</span>
+        <img src="990y.png" alt="Project Logo">
+      </h2>
+<p>In this section, I bring together engaging games and innovative applications that enhance user experience. Whether you're looking for interactive entertainment or practical digital tools, you'll find something exciting to explore.</p>
+      <center>   <a href="projects.html" class="custom-button">More.....</a>   </center>
+    </section>
+ <!-- BANGLADESH Section -->
+    <section id="BANGLADESH">
+      <h2 class="section-header">
+        <img src="24mpd.png" alt="Country Logo">
+      <span>BANGLADESH</span>
+      <h2></h2>
+      <p></p>
+      <center>
+   <img src="Flag_of_Bangladesh.svg.png" alt="Example Image" style="width:300px; height:200px;">
+</center>
+ </section>
+    <!-- Social Media Section -->
+    <section id="social">
+      <h2 class="section-header">
+        <img src="eer4.png" alt="Follow Me Logo">
+        <span>Follow Me</span>
+      </h2>
+
+   <section id="social">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/16SYA8zvQz/?mibextid=ZbWKwL"_blank" title="Facebook" class="social-icon-facebook">Facebook</a>
+        <a href="https://threads.net/pm_toha" target="_blank" title="Threads" class="social-icon-threads">Threads</a>
+        <a href="https://instagram.com/pm_toha"_blank" title="Instagram" class="social-icon-instagram">Instagram</a>
+        <a href="https://twitter.com/AbrarIshraqToha"_blank" title="Twitter" class="social-icon-twitter">Twitter</a>
+        <a href="https://reddit.com/user/pm-toha"_blank" title="Reddit" class="social-icon-reddit">Reddit</a>
+        <a href="https://bsky.app/profile/pmtoha.bsky.social" target="_blank" title="Bluesky" class="social-icon-bluesky">Bluesky</a>
+        <a href="https://tiktok.com/@pmtoha" target="_blank" title="TikTok" class="social-icon-tiktok">TikTok</a>
+        <a href="https://www.linkedin.com/in/pm-toha06" target="_blank" title="LinkedIn" class="social-icon-linkedin">LinkedIn</a>
+        <a href="https://www.quora.com/profile/P-M-Abrar-Ishraq-Toha?ch=10&oid=2880212966&share=f52d34bd&srid=3l5OmF&target_type=user" target="_blank" title="Quora" class="social-icon-quora">Quora</a>
+        <a href="https://github.com/pmtoha" target="_blank" title="GitHub" class="social-icon-github">GitHub</a>
+        <a href="https://alfafaa-community.com/pmtoha" target="_blank" title="Alfafaa Community" class="social-icon-alfafaa">Alfafaa Community</a>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer Section -->
+  <section id="footer">
+    <center>
+      <p>&copy; 2025 ABRAR ISHRAQ TOHA</p>
+      <p>All Rights Reserved.</p>
+    </center>
+  </section>
+</body>
+</html>

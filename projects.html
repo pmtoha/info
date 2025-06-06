@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - Personal Portfolio</title>
+  <style>
+    /* Global Styling */
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    /* Header Section Styling */
+    #header {
+      background: #000;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+    #header h2 {
+      margin: 0;
+      font-size: 32px;
+    }
+    #header p {
+      margin: 10px 0 0;
+      font-size: 18px;
+    }
+
+    /* Container for Main Content */
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    /* Section Styling */
+    section {
+      background: #fff;
+      color: #000;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.5s ease-in-out;
+    }
+    section:hover {
+      background-color: #ffd433;
+    }
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .section-header img {
+      width: 40px;
+      height: auto;
+    }
+
+    /* Flex Container for Buttons */
+    .section-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    /* Base Button Style */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .btn img {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+    }
+
+    /* Game Button: New Purple Gradient */
+    .game-btn {
+      background: linear-gradient(45deg, #8E2DE2, #4A00E0);
+      border: none;
+      color: #fff;
+    }
+
+    /* App Button: Green/Blue Gradient */
+    .app-btn {
+      background: linear-gradient(45deg, #42e695, #3bb2b8);
+      border: none;
+      color: #fff;
+    }
+
+    /* Optional New Button: Blue Gradient */
+    .special-btn {
+      background: linear-gradient(45deg, #00c6ff, #0072ff);
+      border: none;
+      color: #fff;
+    }
+
+    /* Hover Effect for Buttons */
+    .btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Back Button (Inline style example removed to integrated style below) */
+    .back-btn {
+      background: linear-gradient(45deg, #007bff, #0056b3);
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+      text-transform: uppercase;
+      font-weight: bold;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      margin: 20px auto;
+    }
+    .back-btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 10px;
+      text-align: center;
+      margin-top: 30px;
+      box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 480px) {
+      /* Adjust header and button text sizes for smaller devices, if needed */
+      #header h2 {
+        font-size: 28px;
+      }
+      #header p {
+        font-size: 16px;
+      }
+      .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+      }
+      .section-header img {
+        width: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <section id="header">
+    <h2>Projects</h2>
+    <p>Explore my Game Lounge & Other Applications</p>
+  </section>
+  
+  <!-- Main Container -->
+  <div class="container">
+    
+    <!-- Game Lounge Section -->
+    <section id="game-lounge">
+      <div class="section-header">
+        <img src="77jg.png" alt="Game Lounge Logo">
+        <h2>Game Lounge</h2>
+      </div>
+      <p>* Want to collaborate or simply enjoy my web game? Go ahead and play!</p>
+      <div class="section-buttons">
+        <a href="https://pmtoha.github.io/KiPi-re/" class="btn game-btn">
+          <img src="7974rud.png" alt="KiPi-re Icon"> KiPi-re
+        </a>
+        <a href="https://pmtoha.github.io/ev/" class="btn game-btn">
+          <img src="car1.png" alt="EV Racing Icon"> EV Racing
+        </a>
+        <a href="https://pmtoha.github.io/tic-tac-toe/" class="btn game-btn">
+          <img src="6743ert.png" alt="Tic Tac Toe Icon"> Tic Tac Toe
+        </a>
+        <a href="https://pmtoha.github.io/coin-toss/" class="btn game-btn">
+          <img src="889tyu.png" alt="Coin-Toss Icon"> Coin-Toss
+        </a>
+        <a href="https://pmtoha.github.io/error/" class="btn game-btn">
+          <img src="r.png" alt="Icon"> F..
+        </a>
+
+
+
+      </div>
+    </section>
+    
+    <!-- Other Applications Section -->
+    <section id="other-applications">
+      <div class="section-header">
+        <img src="990y.png" alt="Other Applications Logo">
+        <h2>Other Applications</h2>
+      </div>
+      <p>* Explore my applications and give them a try!</p>
+      <div class="section-buttons">
+        <a href="https://pmtoha.github.io/cal/" class="btn app-btn">
+          <img src="calculator444.png" alt="Calculator Icon"> Calculator
+        </a>
+             </div>
+    </section>
+    
+    <!-- Back to Home Button -->
+    <div style="text-align: center;">
+      <a href="index.html" class="back-btn">Back to Home</a>
+    </div>
+  </div>
+  
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 AiT Inc Ltd. </p>
+     <p> All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
